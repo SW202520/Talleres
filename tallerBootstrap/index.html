@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Café de Especialidad — Verde</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Blog de café de especialidad con estética verde y tarjetas translúcidas sobre imágenes."/>
+</head>
+<body class="bg-deep">
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-glass fixed-top blur-md">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#"><span class="logo-dot"></span> Verde Café</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#posts">Artículos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#metodos">Métodos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <header id="inicio" class="hero section-cover" style="--bg:url('assets/img/hero.jpg')">
+    <div class="container py-6">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-6">
+          <div class="card bg-glass text-light shadow-xl blur-lg p-4 p-lg-5">
+            <p class="overline text-accent mb-1">AMAZING BREWS</p>
+            <h1 class="display-5 fw-bold lh-1">Siente el bosque en cada taza</h1>
+            <p class="lead opacity-85 mt-3">
+              Recetas, orígenes y técnicas de extracción para un café limpio, dulce y aromático.
+            </p>
+            <div class="d-flex gap-3 mt-3">
+              <a class="btn btn-accent btn-lg" href="#posts">Leer artículos</a>
+              <a class="btn btn-outline-light btn-lg" href="#metodos">Métodos</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 d-none d-lg-block"><!-- deja respirar la imagen --></div>
+      </div>
+    </div>
+   
+    <div class="hero-arrows d-none d-md-flex">
+      <button class="ctrl"><span class="bi bi-arrow-left"></span></button>
+      <button class="ctrl"><span class="bi bi-arrow-right"></span></button>
+    </div>
+  </header>
+
+ 
+  <section class="section-parallax text-center text-light" style="--bg:url('assets/img/bosque.jpg')">
+    <div class="container py-5">
+      <h2 class="display-6 fw-bold mb-2">Plantaciones & Orígenes</h2>
+      <p class="opacity-85">Etiopía, Colombia, Costa Rica — variedades, procesos y perfiles sensoriales.</p>
+      <div class="row g-3 mt-3">
+        <div class="col-12 col-md-4">
+          <div class="chip bg-glass blur-md">+240 variedades</div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="chip bg-glass blur-md">Trazabilidad completa</div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="chip bg-glass blur-md">Notas florales y frutales</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <main class="container my-5" id="posts">
+    <div class="d-flex align-items-end justify-content-between mb-3">
+      <h3 class="m-0 text-ink">Artículos recientes</h3>
+      <a class="link-accent" href="#">Ver todos</a>
+    </div>
+
+    <div class="row g-4">
+      <article class="col-12 col-md-6 col-lg-4">
+        <div class="card card-glass h-100">
+          <div class="card-cover" style="--img:url('assets/img/granos.jpg')"></div>
+          <div class="card-body">
+            <h4 class="card-title">V60: dulce y limpio</h4>
+            <p class="card-text small">Ratios, molienda y vertidos para resaltar claridad y dulzor en cafés lavados.</p>
+            <a href="#" class="btn btn-accent">Leer más</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-12 col-md-6 col-lg-4">
+        <div class="card card-glass h-100">
+          <div class="card-cover" style="--img:url('assets/img/taza.jpg')"></div>
+          <div class="card-body">
+            <h4 class="card-title">AeroPress invertida</h4>
+            <p class="card-text small">Cuerpo medio y final sedoso con extracción controlada en 1:30.</p>
+            <a href="#" class="btn btn-accent">Leer más</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-12 col-md-6 col-lg-4">
+        <div class="card card-glass h-100">
+          <div class="card-cover" style="--img:url('assets/img/hero.jpg')"></div>
+          <div class="card-body">
+            <h4 class="card-title">Etiopía: cuna del café</h4>
+            <p class="card-text small">Jazmín, bergamota y frutas de hueso: guía de perfiles regionales.</p>
+            <a href="#" class="btn btn-accent">Leer más</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+
+  <section id="metodos" class="container my-5">
+    <h3 class="text-ink mb-3">Métodos de preparación</h3>
+    <div class="row g-4">
+      <div class="col-12 col-lg-4">
+        <div class="panel-glass p-4 h-100">
+          <h5 class="mb-1">V60</h5>
+          <ul class="small m-0">
+            <li>Ratio 1:16 (18 g → 288 g)</li>
+            <li>Molienda media</li>
+            <li>2:30 – 3:00</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="panel-glass p-4 h-100">
+          <h5 class="mb-1">AeroPress</h5>
+          <ul class="small m-0">
+            <li>Ratio 1:14 (15 g → 210 g)</li>
+            <li>Molienda media-fina</li>
+            <li>1:30 invertida</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="panel-glass p-4 h-100">
+          <h5 class="mb-1">Prensa Francesa</h5>
+          <ul class="small m-0">
+            <li>Ratio 1:15 (30 g → 450 g)</li>
+            <li>Molienda gruesa</li>
+            <li>4:00</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contacto" class="section-cover" style="--bg:url('assets/img/bosque.jpg')">
+    <div class="container py-6">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+          <div class="card bg-glass text-light blur-lg p-4 p-lg-5">
+            <h3 class="mb-3">Suscríbete al boletín</h3>
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-6">
+                <label class="form-label">Nombre</label>
+                <input type="text" class="form-control bg-glass-weak text-light" required>
+                <div class="invalid-feedback">Escribe tu nombre.</div>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Correo</label>
+                <input type="email" class="form-control bg-glass-weak text-light" required>
+                <div class="invalid-feedback">Correo inválido.</div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-accent btn-lg">Suscribirme</button>
+              </div>
+            </form>
+            <p class="small opacity-75 mt-3 mb-0">*Demostración — no se envían datos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="py-4 text-center text-secondary">
+    <div class="container small">© 2025 · Verde Café</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Validación Bootstrap
+    (() => {
+      const forms = document.querySelectorAll('.needs-validation');
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', e => {
+          if (!form.checkValidity()) { e.preventDefault(); e.stopPropagation(); }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    })();
+  </script>
+</body>
+</html>

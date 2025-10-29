@@ -1,0 +1,6 @@
+body{font-family:system-ui,Arial,sans-serif;max-width:900px;margin:32px auto;padding:0 16px}
+header{display:flex;gap:8px;align-items:center}
+#items{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:12px}
+.card{border:1px solid #ddd;border-radius:10px;padding:12px}
+.card h3{margin:0 0 6px 0;font-size:1.05rem}
+.badge{display:inline-block;background:#eee;border-radius:999px;padding:2px 8px;font-size:.8rem}

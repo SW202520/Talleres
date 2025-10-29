@@ -1,12 +1,11 @@
-export class CatalogItem {
-    constructor(id, name, category, price, discount = 0) {
+export class Serie {
+    constructor(id, name, channel, seasons, description, webpage, poster) {
         this.id = id;
         this.name = name;
-        this.category = category;
-        this.price = price;
-        this.discount = discount;
-    }
-    finalPrice() {
-        return Math.round(this.price * (1 - this.discount));
+        this.channel = channel;
+        this.seasons = seasons;
+        this.description = description;
+        this.webpage = webpage;
+        this.poster = poster;
     }
 }
